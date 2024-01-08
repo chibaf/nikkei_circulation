@@ -3,6 +3,8 @@ nikkei circulation from 2010
 
 nikkei-circulation.nb : 計算に使ったMathmaticaノートブック
 
+## csvファイル
+
 nikkei-pc.csv : 日経紙の購読者数推移　2010~2022
 
 nikkei-ec.csv : 日経電子版の購読者数推移　2010~2022
