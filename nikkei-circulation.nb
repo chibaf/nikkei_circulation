@@ -1,0 +1,1920 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     78489,       1912]
+NotebookOptionsPosition[     73870,       1822]
+NotebookOutlinePosition[     74261,       1838]
+CellTagsIndexPosition[     74218,       1835]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"a", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"2010", ",", "3070000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2011", ",", "3070000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2012", ",", "2840000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2013", ",", "2764000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2014", ",", "2732000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2015", ",", "2732000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2016", ",", "2726000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2017", ",", "2498000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2018", ",", "2358000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2019", ",", "2236000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2020", ",", "1993000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2021", ",", "1814000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2022", ",", "1649000"}], "}"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.91370493833344*^9, 3.913704946929166*^9}, {
+  3.913705043540265*^9, 3.913705369012848*^9}, {3.913705415384563*^9, 
+  3.913705438635028*^9}, {3.913705487528816*^9, 3.9137054878580103`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"5626beef-6360-431b-98a7-b4b5443d334b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2010", ",", "3070000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", "3070000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", "2840000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", "2764000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", "2732000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", "2732000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", "2726000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", "2498000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", "2358000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", "2236000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", "1993000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2021", ",", "1814000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2022", ",", "1649000"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.9137054783080053`*^9, 3.913705489225355*^9}},
+ CellLabel->"Out[10]=",ExpressionUUID->"87603575-5f5c-46ae-9005-fe594451dfc7"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+   "year", " ", "2011", " ", "has", " ", "no", " ", "circulation", " ", 
+    "data"}], ",", " ", 
+   RowBox[{
+   "previous", " ", "year", " ", "circulation", " ", "employed", " ", "for", 
+    " ", "2011"}]}], " ", "*)"}]], "Input",
+ CellChangeTimes->{{3.913705375631967*^9, 3.913705400678562*^9}, {
+  3.913706460609918*^9, 
+  3.9137065082788467`*^9}},ExpressionUUID->"d52f6f99-9b96-4329-bcfe-\
+862a9814b990"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{"a", ",", 
+   RowBox[{"Joined", "->", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.913705449941519*^9, 3.913705462886602*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"895d0146-a8bc-4926-b3fe-8960e9b325f1"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   InterpretationBox[{
+     TagBox[{{}, {}, 
+       TagBox[
+        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 3.07*^6}, {2011., 3.07*^6}, {2012., 2.84*^6}, {
+          2013., 2.764*^6}, {2014., 2.732*^6}, {2015., 2.732*^6}, {2016., 
+          2.726*^6}, {2017., 2.498*^6}, {2018., 2.358*^6}, {2019., 
+          2.236*^6}, {2020., 1.993*^6}, {2021., 1.814*^6}, {2022., 
+          1.649*^6}}]},
+        Annotation[#, "Charting`Private`Tag#1"]& ]},
+      {"WolframDynamicHighlight", <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>}], 
+     DynamicBox[(Charting`HighlightActionBox["DynamicHighlight", {}, 
+       Slot["HighlightElements"], 
+       Slot["LayoutOptions"], 
+       Slot["Meta"], 
+       Charting`HighlightActionFunction["DynamicHighlight", {{{}, {}, 
+          Annotation[{
+            Hue[0.67, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 3.07*^6}, {2011., 3.07*^6}, {2012., 2.84*^6}, {
+             2013., 2.764*^6}, {2014., 2.732*^6}, {2015., 2.732*^6}, {2016., 
+             2.726*^6}, {2017., 2.498*^6}, {2018., 2.358*^6}, {2019., 
+             2.236*^6}, {2020., 1.993*^6}, {2021., 1.814*^6}, {2022., 
+             1.649*^6}}]}, "Charting`Private`Tag#1"]}}, <|
+        "HighlightElements" -> <|
+          "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+         "LayoutOptions" -> <|
+          "PlotRange" -> {{2009.7500000000045`, 2022.}, {
+            1.5700555555555592`*^6, 3.07*^6}}, 
+           "Frame" -> {{False, False}, {False, False}}, 
+           "AxesOrigin" -> {2009.7500000000045`, 1.5700555555555592`*^6}, 
+           "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+           "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+           "DefaultStyle" -> {
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.368417, 0.506779, 0.709798], 
+              AbsoluteThickness[2]]}, 
+           "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+               Identity[
+                Part[#, 1]], 
+               Identity[
+                Part[#, 2]]}& ), 
+             "ScalingFunctions" -> {{Identity, Identity}, {
+               Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
+           False|>, 
+         "Meta" -> <|
+          "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+           ListPlot, "GroupHighlight" -> False|>|>]]& )[<|
+       "HighlightElements" -> <|
+         "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+        "LayoutOptions" -> <|
+         "PlotRange" -> {{2009.7500000000045`, 2022.}, {
+           1.5700555555555592`*^6, 3.07*^6}}, 
+          "Frame" -> {{False, False}, {False, False}}, 
+          "AxesOrigin" -> {2009.7500000000045`, 1.5700555555555592`*^6}, 
+          "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+          "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+          "DefaultStyle" -> {
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]]}, 
+          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+              Identity[
+               Part[#, 1]], 
+              Identity[
+               Part[#, 2]]}& ), 
+            "ScalingFunctions" -> {{Identity, Identity}, {
+              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>,
+         "Meta" -> <|
+         "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+          ListPlot, "GroupHighlight" -> False|>|>],
+      ImageSizeCache->{{4.503599627370496*^15, -4.503599627370496*^15}, {
+       4.503599627370496*^15, -4.503599627370496*^15}}]},
+    Annotation[{{{}, {}, 
+       Annotation[{
+         Hue[0.67, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.368417, 0.506779, 0.709798], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 3.07*^6}, {2011., 3.07*^6}, {2012., 2.84*^6}, {2013., 
+          2.764*^6}, {2014., 2.732*^6}, {2015., 2.732*^6}, {2016., 
+          2.726*^6}, {2017., 2.498*^6}, {2018., 2.358*^6}, {2019., 
+          2.236*^6}, {2020., 1.993*^6}, {2021., 1.814*^6}, {2022., 
+          1.649*^6}}]}, "Charting`Private`Tag#1"]}}, <|
+     "HighlightElements" -> <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+      "LayoutOptions" -> <|
+       "PlotRange" -> {{2009.7500000000045`, 2022.}, {1.5700555555555592`*^6, 
+         3.07*^6}}, "Frame" -> {{False, False}, {False, False}}, 
+        "AxesOrigin" -> {2009.7500000000045`, 1.5700555555555592`*^6}, 
+        "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+        "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.368417, 0.506779, 0.709798], 
+           AbsoluteThickness[2]]}, 
+        "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+            Identity[
+             Part[#, 1]], 
+            Identity[
+             Part[#, 2]]}& ), 
+          "ScalingFunctions" -> {{Identity, Identity}, {
+            Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
+      "Meta" -> <|
+       "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+        ListPlot, "GroupHighlight" -> False|>|>, 
+     "DynamicHighlight"]], {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{2009.7500000000045`, 1.5700555555555592`*^6},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "DefaultPlotStyle" -> {
+      Directive[
+       RGBColor[0.368417, 0.506779, 0.709798], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.880722, 0.611041, 0.142051], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.560181, 0.691569, 0.194885], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.922526, 0.385626, 0.209179], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.528488, 0.470624, 0.701351], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.772079, 0.431554, 0.102387], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.363898, 0.618501, 0.782349], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[1, 0.75, 0], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.647624, 0.37816, 0.614037], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.571589, 0.586483, 0.], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.915, 0.3325, 0.2125], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.9728288904374106, 0.621644452187053, 0.07336199581899142], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.736782672705901, 0.358, 0.5030266573755369], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965], 
+       AbsoluteThickness[2]]}, "DomainPadding" -> Scaled[0.02], 
+    "PointSizeFunction" -> "SmallPointSize", "RangePadding" -> Scaled[0.05], 
+    "OptimizePlotMarkers" -> True, "IncludeHighlighting" -> "CurrentSet", 
+    "HighlightStyle" -> Automatic, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{2009.7500000000045`, 2022.}, {1.5700555555555592`*^6, 3.07*^6}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.9137054678278627`*^9, 3.913705492706347*^9}},
+ CellLabel->"Out[11]=",ExpressionUUID->"9aba90df-73d6-415e-bc31-acd1ddbf048c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"b", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"2010", ",", "100000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2011", ",", "170000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2012", ",", "250000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2013", ",", "335000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2014", ",", "390000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2015", ",", "449000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2016", ",", "501000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2017", ",", "558000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2018", ",", "620000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2019", ",", "698000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2020", ",", "760000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2021", ",", "797000"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2022", ",", "823000"}], "}"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.91370493833344*^9, 3.913704946929166*^9}, {
+  3.913705043540265*^9, 3.913705369012848*^9}, {3.913705415384563*^9, 
+  3.913705438635028*^9}, {3.913705487528816*^9, 3.9137054878580103`*^9}, {
+  3.9137056131931047`*^9, 3.9137057910964746`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"81aed00e-5d1b-4ef7-8353-9f28f2cf2833"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2010", ",", "100000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", "170000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", "250000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", "335000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", "390000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", "449000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", "501000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", "558000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", "620000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", "698000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", "760000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2021", ",", "797000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2022", ",", "823000"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.9137058222983227`*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"0b5ebd19-37ab-44ba-a372-2414cc00c2ad"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{"b", ",", 
+   RowBox[{"Joined", "->", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.913705803566299*^9, 3.913705816714677*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"901cd1ef-a731-461c-89fe-79f5d101673f"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   InterpretationBox[{
+     TagBox[{{}, {}, 
+       TagBox[
+        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 100000.}, {2011., 170000.}, {2012., 250000.}, {
+          2013., 335000.}, {2014., 390000.}, {2015., 449000.}, {2016., 
+          501000.}, {2017., 558000.}, {2018., 620000.}, {2019., 698000.}, {
+          2020., 760000.}, {2021., 797000.}, {2022., 823000.}}]},
+        Annotation[#, "Charting`Private`Tag#1"]& ]},
+      {"WolframDynamicHighlight", <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>}], 
+     DynamicBox[(Charting`HighlightActionBox["DynamicHighlight", {}, 
+       Slot["HighlightElements"], 
+       Slot["LayoutOptions"], 
+       Slot["Meta"], 
+       Charting`HighlightActionFunction["DynamicHighlight", {{{}, {}, 
+          Annotation[{
+            Hue[0.67, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 100000.}, {2011., 170000.}, {2012., 250000.}, {
+             2013., 335000.}, {2014., 390000.}, {2015., 449000.}, {2016., 
+             501000.}, {2017., 558000.}, {2018., 620000.}, {2019., 698000.}, {
+             2020., 760000.}, {2021., 797000.}, {2022., 823000.}}]}, 
+           "Charting`Private`Tag#1"]}}, <|
+        "HighlightElements" -> <|
+          "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+         "LayoutOptions" -> <|
+          "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 823000.}}, 
+           "Frame" -> {{False, False}, {False, False}}, 
+           "AxesOrigin" -> {2009.7500000000045`, 0}, 
+           "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+           "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+           "DefaultStyle" -> {
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.368417, 0.506779, 0.709798], 
+              AbsoluteThickness[2]]}, 
+           "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+               Identity[
+                Part[#, 1]], 
+               Identity[
+                Part[#, 2]]}& ), 
+             "ScalingFunctions" -> {{Identity, Identity}, {
+               Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
+           False|>, 
+         "Meta" -> <|
+          "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+           ListPlot, "GroupHighlight" -> False|>|>]]& )[<|
+       "HighlightElements" -> <|
+         "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+        "LayoutOptions" -> <|
+         "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 823000.}}, 
+          "Frame" -> {{False, False}, {False, False}}, 
+          "AxesOrigin" -> {2009.7500000000045`, 0}, 
+          "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+          "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+          "DefaultStyle" -> {
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]]}, 
+          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+              Identity[
+               Part[#, 1]], 
+              Identity[
+               Part[#, 2]]}& ), 
+            "ScalingFunctions" -> {{Identity, Identity}, {
+              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>,
+         "Meta" -> <|
+         "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+          ListPlot, "GroupHighlight" -> False|>|>],
+      ImageSizeCache->{{4.503599627370496*^15, -4.503599627370496*^15}, {
+       4.503599627370496*^15, -4.503599627370496*^15}}]},
+    Annotation[{{{}, {}, 
+       Annotation[{
+         Hue[0.67, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.368417, 0.506779, 0.709798], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 100000.}, {2011., 170000.}, {2012., 250000.}, {2013., 
+          335000.}, {2014., 390000.}, {2015., 449000.}, {2016., 501000.}, {
+          2017., 558000.}, {2018., 620000.}, {2019., 698000.}, {2020., 
+          760000.}, {2021., 797000.}, {2022., 823000.}}]}, 
+        "Charting`Private`Tag#1"]}}, <|
+     "HighlightElements" -> <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+      "LayoutOptions" -> <|
+       "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 823000.}}, 
+        "Frame" -> {{False, False}, {False, False}}, 
+        "AxesOrigin" -> {2009.7500000000045`, 0}, 
+        "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+        "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.368417, 0.506779, 0.709798], 
+           AbsoluteThickness[2]]}, 
+        "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+            Identity[
+             Part[#, 1]], 
+            Identity[
+             Part[#, 2]]}& ), 
+          "ScalingFunctions" -> {{Identity, Identity}, {
+            Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
+      "Meta" -> <|
+       "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+        ListPlot, "GroupHighlight" -> False|>|>, 
+     "DynamicHighlight"]], {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{2009.7500000000045`, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "DefaultPlotStyle" -> {
+      Directive[
+       RGBColor[0.368417, 0.506779, 0.709798], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.880722, 0.611041, 0.142051], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.560181, 0.691569, 0.194885], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.922526, 0.385626, 0.209179], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.528488, 0.470624, 0.701351], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.772079, 0.431554, 0.102387], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.363898, 0.618501, 0.782349], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[1, 0.75, 0], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.647624, 0.37816, 0.614037], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.571589, 0.586483, 0.], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.915, 0.3325, 0.2125], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.9728288904374106, 0.621644452187053, 0.07336199581899142], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.736782672705901, 0.358, 0.5030266573755369], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965], 
+       AbsoluteThickness[2]]}, "DomainPadding" -> Scaled[0.02], 
+    "PointSizeFunction" -> "SmallPointSize", "RangePadding" -> Scaled[0.05], 
+    "OptimizePlotMarkers" -> True, "IncludeHighlighting" -> "CurrentSet", 
+    "HighlightStyle" -> Automatic, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{2009.7500000000045`, 2022.}, {0, 823000.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.913705818136072*^9, 3.9137058260232897`*^9}},
+ CellLabel->"Out[14]=",ExpressionUUID->"6a6cc489-8ca6-400c-b5fd-ab781e7461fb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b"}], "}"}], ",", 
+   RowBox[{"Joined", "->", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.91370583363227*^9, 3.913705849239792*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"64dec42b-d5bf-40fc-9321-7450a40fd1aa"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   InterpretationBox[{
+     TagBox[{{}, {}, 
+       TagBox[
+        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 3.07*^6}, {2011., 3.07*^6}, {2012., 2.84*^6}, {
+          2013., 2.764*^6}, {2014., 2.732*^6}, {2015., 2.732*^6}, {2016., 
+          2.726*^6}, {2017., 2.498*^6}, {2018., 2.358*^6}, {2019., 
+          2.236*^6}, {2020., 1.993*^6}, {2021., 1.814*^6}, {2022., 
+          1.649*^6}}]},
+        Annotation[#, "Charting`Private`Tag#1"]& ], 
+       TagBox[
+        {RGBColor[0.880722, 0.611041, 0.142051], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 100000.}, {2011., 170000.}, {2012., 250000.}, {
+          2013., 335000.}, {2014., 390000.}, {2015., 449000.}, {2016., 
+          501000.}, {2017., 558000.}, {2018., 620000.}, {2019., 698000.}, {
+          2020., 760000.}, {2021., 797000.}, {2022., 823000.}}]},
+        Annotation[#, "Charting`Private`Tag#2"]& ]},
+      {"WolframDynamicHighlight", <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>}], 
+     DynamicBox[(Charting`HighlightActionBox["DynamicHighlight", {}, 
+       Slot["HighlightElements"], 
+       Slot["LayoutOptions"], 
+       Slot["Meta"], 
+       Charting`HighlightActionFunction["DynamicHighlight", {{{}, {}, 
+          Annotation[{
+            Hue[0.67, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 3.07*^6}, {2011., 3.07*^6}, {2012., 2.84*^6}, {
+             2013., 2.764*^6}, {2014., 2.732*^6}, {2015., 2.732*^6}, {2016., 
+             2.726*^6}, {2017., 2.498*^6}, {2018., 2.358*^6}, {2019., 
+             2.236*^6}, {2020., 1.993*^6}, {2021., 1.814*^6}, {2022., 
+             1.649*^6}}]}, "Charting`Private`Tag#1"], 
+          Annotation[{
+            Hue[0.9060679774997897, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.880722, 0.611041, 0.142051], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 100000.}, {2011., 170000.}, {2012., 250000.}, {
+             2013., 335000.}, {2014., 390000.}, {2015., 449000.}, {2016., 
+             501000.}, {2017., 558000.}, {2018., 620000.}, {2019., 698000.}, {
+             2020., 760000.}, {2021., 797000.}, {2022., 823000.}}]}, 
+           "Charting`Private`Tag#2"]}}, <|
+        "HighlightElements" -> <|
+          "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+         "LayoutOptions" -> <|
+          "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 3.07*^6}}, 
+           "Frame" -> {{False, False}, {False, False}}, 
+           "AxesOrigin" -> {2009.7500000000045`, 0}, 
+           "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+           "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+           "DefaultStyle" -> {
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.880722, 0.611041, 0.142051], 
+              AbsoluteThickness[2]], 
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.368417, 0.506779, 0.709798], 
+              AbsoluteThickness[2]]}, 
+           "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+               Identity[
+                Part[#, 1]], 
+               Identity[
+                Part[#, 2]]}& ), 
+             "ScalingFunctions" -> {{Identity, Identity}, {
+               Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
+           False|>, 
+         "Meta" -> <|
+          "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+           ListPlot, "GroupHighlight" -> False|>|>]]& )[<|
+       "HighlightElements" -> <|
+         "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+        "LayoutOptions" -> <|
+         "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 3.07*^6}}, 
+          "Frame" -> {{False, False}, {False, False}}, 
+          "AxesOrigin" -> {2009.7500000000045`, 0}, 
+          "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+          "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+          "DefaultStyle" -> {
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.880722, 0.611041, 0.142051], 
+             AbsoluteThickness[2]], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]]}, 
+          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+              Identity[
+               Part[#, 1]], 
+              Identity[
+               Part[#, 2]]}& ), 
+            "ScalingFunctions" -> {{Identity, Identity}, {
+              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>,
+         "Meta" -> <|
+         "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+          ListPlot, "GroupHighlight" -> False|>|>],
+      ImageSizeCache->{{4.503599627370496*^15, -4.503599627370496*^15}, {
+       4.503599627370496*^15, -4.503599627370496*^15}}]},
+    Annotation[{{{}, {}, 
+       Annotation[{
+         Hue[0.67, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.368417, 0.506779, 0.709798], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 3.07*^6}, {2011., 3.07*^6}, {2012., 2.84*^6}, {2013., 
+          2.764*^6}, {2014., 2.732*^6}, {2015., 2.732*^6}, {2016., 
+          2.726*^6}, {2017., 2.498*^6}, {2018., 2.358*^6}, {2019., 
+          2.236*^6}, {2020., 1.993*^6}, {2021., 1.814*^6}, {2022., 
+          1.649*^6}}]}, "Charting`Private`Tag#1"], 
+       Annotation[{
+         Hue[0.9060679774997897, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.880722, 0.611041, 0.142051], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 100000.}, {2011., 170000.}, {2012., 250000.}, {2013., 
+          335000.}, {2014., 390000.}, {2015., 449000.}, {2016., 501000.}, {
+          2017., 558000.}, {2018., 620000.}, {2019., 698000.}, {2020., 
+          760000.}, {2021., 797000.}, {2022., 823000.}}]}, 
+        "Charting`Private`Tag#2"]}}, <|
+     "HighlightElements" -> <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+      "LayoutOptions" -> <|
+       "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 3.07*^6}}, 
+        "Frame" -> {{False, False}, {False, False}}, 
+        "AxesOrigin" -> {2009.7500000000045`, 0}, 
+        "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+        "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.880722, 0.611041, 0.142051], 
+           AbsoluteThickness[2]], 
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.368417, 0.506779, 0.709798], 
+           AbsoluteThickness[2]]}, 
+        "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+            Identity[
+             Part[#, 1]], 
+            Identity[
+             Part[#, 2]]}& ), 
+          "ScalingFunctions" -> {{Identity, Identity}, {
+            Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
+      "Meta" -> <|
+       "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+        ListPlot, "GroupHighlight" -> False|>|>, 
+     "DynamicHighlight"]], {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{2009.7500000000045`, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "DefaultPlotStyle" -> {
+      Directive[
+       RGBColor[0.368417, 0.506779, 0.709798], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.880722, 0.611041, 0.142051], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.560181, 0.691569, 0.194885], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.922526, 0.385626, 0.209179], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.528488, 0.470624, 0.701351], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.772079, 0.431554, 0.102387], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.363898, 0.618501, 0.782349], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[1, 0.75, 0], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.647624, 0.37816, 0.614037], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.571589, 0.586483, 0.], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.915, 0.3325, 0.2125], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.9728288904374106, 0.621644452187053, 0.07336199581899142], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.736782672705901, 0.358, 0.5030266573755369], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965], 
+       AbsoluteThickness[2]]}, "DomainPadding" -> Scaled[0.02], 
+    "PointSizeFunction" -> "SmallPointSize", "RangePadding" -> Scaled[0.05], 
+    "OptimizePlotMarkers" -> True, "IncludeHighlighting" -> "CurrentSet", 
+    "HighlightStyle" -> Automatic, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{2009.7500000000045`, 2022.}, {0, 3.07*^6}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.913705850236781*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"231a571c-877a-47db-924e-e56edd00c05e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"pc", "=", "5500"}]], "Input",
+ CellChangeTimes->{{3.91370601210505*^9, 3.913706028880851*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"d2db0dba-389d-4b71-ab91-1396ded9bc58"],
+
+Cell[BoxData["5500"], "Output",
+ CellChangeTimes->{3.9137060340488787`*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"0ecc4cb1-14a8-4ee6-b2f3-521020024bd9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ec", "=", "4277"}]], "Input",
+ CellChangeTimes->{{3.9137060379389772`*^9, 3.9137060586577578`*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"b3d4bafa-ef68-4672-af6e-7a6a0c65c284"],
+
+Cell[BoxData["4277"], "Output",
+ CellChangeTimes->{3.913706059587184*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"7c191858-8ff1-41bd-88df-34f1a8bcdaeb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"a2", "=", 
+  RowBox[{"Transpose", "[", "a", "]"}]}]], "Input",
+ CellChangeTimes->{{3.913706109024324*^9, 3.9137061165282288`*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"c2e5814d-4355-4286-a35c-154e40a53dcb"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "2010", ",", "2011", ",", "2012", ",", "2013", ",", "2014", ",", "2015", 
+     ",", "2016", ",", "2017", ",", "2018", ",", "2019", ",", "2020", ",", 
+     "2021", ",", "2022"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "3070000", ",", "3070000", ",", "2840000", ",", "2764000", ",", "2732000",
+      ",", "2732000", ",", "2726000", ",", "2498000", ",", "2358000", ",", 
+     "2236000", ",", "1993000", ",", "1814000", ",", "1649000"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.913706118346533*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"50e66b6b-76b6-43e9-9476-2c62cb9ef1e2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"a3", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"a2", "[", 
+     RowBox[{"[", "1", "]"}], "]"}], ",", 
+    RowBox[{"pc", "*", 
+     RowBox[{"a2", "[", 
+      RowBox[{"[", "2", "]"}], "]"}]}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.91370612445159*^9, 3.9137061462459993`*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"d960455b-836b-4c65-a224-7bb4cd863875"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "2010", ",", "2011", ",", "2012", ",", "2013", ",", "2014", ",", "2015", 
+     ",", "2016", ",", "2017", ",", "2018", ",", "2019", ",", "2020", ",", 
+     "2021", ",", "2022"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "16885000000", ",", "16885000000", ",", "15620000000", ",", "15202000000",
+      ",", "15026000000", ",", "15026000000", ",", "14993000000", ",", 
+     "13739000000", ",", "12969000000", ",", "12298000000", ",", 
+     "10961500000", ",", "9977000000", ",", "9069500000"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.913706147679449*^9},
+ CellLabel->"Out[20]=",ExpressionUUID->"5f0e8619-ffa3-4325-8c28-e041559d03eb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"a4", "=", 
+  RowBox[{"Transpose", "[", "a3", "]"}]}]], "Input",
+ CellChangeTimes->{{3.913706154861205*^9, 3.913706166705372*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"da7a8a82-1876-495b-bf5b-5b49c3198ed7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2010", ",", "16885000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", "16885000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", "15620000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", "15202000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", "15026000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", "15026000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", "14993000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", "13739000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", "12969000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", "12298000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", "10961500000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2021", ",", "9977000000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2022", ",", "9069500000"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.9137061675517187`*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"8f0ca4e2-1f44-43b4-8e8c-909cece3df21"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"b2", "=", 
+  RowBox[{"Transpose", "[", "b", "]"}]}]], "Input",
+ CellChangeTimes->{{3.913706109024324*^9, 3.9137061165282288`*^9}, {
+  3.913706187815522*^9, 3.91370619191278*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"eec7c207-6d44-41cd-82d8-d40e8a79ae70"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "2010", ",", "2011", ",", "2012", ",", "2013", ",", "2014", ",", "2015", 
+     ",", "2016", ",", "2017", ",", "2018", ",", "2019", ",", "2020", ",", 
+     "2021", ",", "2022"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "100000", ",", "170000", ",", "250000", ",", "335000", ",", "390000", ",",
+      "449000", ",", "501000", ",", "558000", ",", "620000", ",", "698000", 
+     ",", "760000", ",", "797000", ",", "823000"}], "}"}]}], "}"}]], "Output",\
+
+ CellChangeTimes->{3.913706118346533*^9, 3.913706193711389*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"01f17969-489f-4e8b-b17b-c898953434e4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"b3", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"b2", "[", 
+     RowBox[{"[", "1", "]"}], "]"}], ",", 
+    RowBox[{"ec", "*", 
+     RowBox[{"b2", "[", 
+      RowBox[{"[", "2", "]"}], "]"}]}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.91370612445159*^9, 3.9137061462459993`*^9}, {
+  3.9137061983558807`*^9, 3.913706210036758*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"e0827fec-55f5-44ce-93c9-b9f6b17704eb"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "2010", ",", "2011", ",", "2012", ",", "2013", ",", "2014", ",", "2015", 
+     ",", "2016", ",", "2017", ",", "2018", ",", "2019", ",", "2020", ",", 
+     "2021", ",", "2022"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "427700000", ",", "727090000", ",", "1069250000", ",", "1432795000", ",", 
+     "1668030000", ",", "1920373000", ",", "2142777000", ",", "2386566000", 
+     ",", "2651740000", ",", "2985346000", ",", "3250520000", ",", 
+     "3408769000", ",", "3519971000"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.913706147679449*^9, 3.913706215785433*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"7c1fc30f-2140-4635-98ca-6e3c377eb758"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"b4", "=", 
+  RowBox[{"Transpose", "[", "b3", "]"}]}]], "Input",
+ CellChangeTimes->{{3.913706154861205*^9, 3.913706166705372*^9}, {
+  3.913706221985395*^9, 3.9137062283512297`*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"0f2f513e-1bbf-4a87-ade3-c308a9bdadba"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2010", ",", "427700000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", "727090000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", "1069250000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", "1432795000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", "1668030000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", "1920373000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", "2142777000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", "2386566000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", "2651740000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", "2985346000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", "3250520000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2021", ",", "3408769000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2022", ",", "3519971000"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.9137061675517187`*^9, 3.913706229514966*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"2e9c1066-6db8-47b9-bd59-3aea749ab75d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a4", ",", "b4"}], "}"}], ",", 
+   RowBox[{"Joined", "->", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.913706233867272*^9, 3.91370627060151*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"b511eb79-89c8-467f-aad9-a6cda8ffaa34"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   InterpretationBox[{
+     TagBox[{{}, {}, 
+       TagBox[
+        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 1.6885*^10}, {2011., 1.6885*^10}, {2012., 
+          1.562*^10}, {2013., 1.5202*^10}, {2014., 1.5026*^10}, {2015., 
+          1.5026*^10}, {2016., 1.4993*^10}, {2017., 1.3739*^10}, {2018., 
+          1.2969*^10}, {2019., 1.2298*^10}, {2020., 1.09615*^10}, {2021., 
+          9.977*^9}, {2022., 9.0695*^9}}]},
+        Annotation[#, "Charting`Private`Tag#1"]& ], 
+       TagBox[
+        {RGBColor[0.880722, 0.611041, 0.142051], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 4.277*^8}, {2011., 7.2709*^8}, {2012., 
+          1.06925*^9}, {2013., 1.432795*^9}, {2014., 1.66803*^9}, {2015., 
+          1.920373*^9}, {2016., 2.142777*^9}, {2017., 2.386566*^9}, {2018., 
+          2.65174*^9}, {2019., 2.985346*^9}, {2020., 3.25052*^9}, {2021., 
+          3.408769*^9}, {2022., 3.519971*^9}}]},
+        Annotation[#, "Charting`Private`Tag#2"]& ]},
+      {"WolframDynamicHighlight", <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>}], 
+     DynamicBox[(Charting`HighlightActionBox["DynamicHighlight", {}, 
+       Slot["HighlightElements"], 
+       Slot["LayoutOptions"], 
+       Slot["Meta"], 
+       Charting`HighlightActionFunction["DynamicHighlight", {{{}, {}, 
+          Annotation[{
+            Hue[0.67, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 1.6885*^10}, {2011., 1.6885*^10}, {2012., 
+             1.562*^10}, {2013., 1.5202*^10}, {2014., 1.5026*^10}, {2015., 
+             1.5026*^10}, {2016., 1.4993*^10}, {2017., 1.3739*^10}, {2018., 
+             1.2969*^10}, {2019., 1.2298*^10}, {2020., 1.09615*^10}, {2021., 
+             9.977*^9}, {2022., 9.0695*^9}}]}, "Charting`Private`Tag#1"], 
+          Annotation[{
+            Hue[0.9060679774997897, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.880722, 0.611041, 0.142051], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 4.277*^8}, {2011., 7.2709*^8}, {2012., 
+             1.06925*^9}, {2013., 1.432795*^9}, {2014., 1.66803*^9}, {2015., 
+             1.920373*^9}, {2016., 2.142777*^9}, {2017., 2.386566*^9}, {2018.,
+              2.65174*^9}, {2019., 2.985346*^9}, {2020., 3.25052*^9}, {2021., 
+             3.408769*^9}, {2022., 3.519971*^9}}]}, 
+           "Charting`Private`Tag#2"]}}, <|
+        "HighlightElements" -> <|
+          "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+         "LayoutOptions" -> <|
+          "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 1.6885*^10}}, 
+           "Frame" -> {{False, False}, {False, False}}, 
+           "AxesOrigin" -> {2009.7500000000045`, 0}, 
+           "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+           "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+           "DefaultStyle" -> {
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.880722, 0.611041, 0.142051], 
+              AbsoluteThickness[2]], 
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.368417, 0.506779, 0.709798], 
+              AbsoluteThickness[2]]}, 
+           "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+               Identity[
+                Part[#, 1]], 
+               Identity[
+                Part[#, 2]]}& ), 
+             "ScalingFunctions" -> {{Identity, Identity}, {
+               Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
+           False|>, 
+         "Meta" -> <|
+          "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+           ListPlot, "GroupHighlight" -> False|>|>]]& )[<|
+       "HighlightElements" -> <|
+         "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+        "LayoutOptions" -> <|
+         "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 1.6885*^10}}, 
+          "Frame" -> {{False, False}, {False, False}}, 
+          "AxesOrigin" -> {2009.7500000000045`, 0}, 
+          "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+          "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+          "DefaultStyle" -> {
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.880722, 0.611041, 0.142051], 
+             AbsoluteThickness[2]], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]]}, 
+          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+              Identity[
+               Part[#, 1]], 
+              Identity[
+               Part[#, 2]]}& ), 
+            "ScalingFunctions" -> {{Identity, Identity}, {
+              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>,
+         "Meta" -> <|
+         "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+          ListPlot, "GroupHighlight" -> False|>|>],
+      ImageSizeCache->{{4.503599627370496*^15, -4.503599627370496*^15}, {
+       4.503599627370496*^15, -4.503599627370496*^15}}]},
+    Annotation[{{{}, {}, 
+       Annotation[{
+         Hue[0.67, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.368417, 0.506779, 0.709798], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 1.6885*^10}, {2011., 1.6885*^10}, {2012., 1.562*^10}, {
+          2013., 1.5202*^10}, {2014., 1.5026*^10}, {2015., 1.5026*^10}, {
+          2016., 1.4993*^10}, {2017., 1.3739*^10}, {2018., 1.2969*^10}, {
+          2019., 1.2298*^10}, {2020., 1.09615*^10}, {2021., 9.977*^9}, {2022.,
+           9.0695*^9}}]}, "Charting`Private`Tag#1"], 
+       Annotation[{
+         Hue[0.9060679774997897, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.880722, 0.611041, 0.142051], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 4.277*^8}, {2011., 7.2709*^8}, {2012., 1.06925*^9}, {
+          2013., 1.432795*^9}, {2014., 1.66803*^9}, {2015., 1.920373*^9}, {
+          2016., 2.142777*^9}, {2017., 2.386566*^9}, {2018., 2.65174*^9}, {
+          2019., 2.985346*^9}, {2020., 3.25052*^9}, {2021., 3.408769*^9}, {
+          2022., 3.519971*^9}}]}, "Charting`Private`Tag#2"]}}, <|
+     "HighlightElements" -> <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+      "LayoutOptions" -> <|
+       "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 1.6885*^10}}, 
+        "Frame" -> {{False, False}, {False, False}}, 
+        "AxesOrigin" -> {2009.7500000000045`, 0}, 
+        "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+        "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.880722, 0.611041, 0.142051], 
+           AbsoluteThickness[2]], 
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.368417, 0.506779, 0.709798], 
+           AbsoluteThickness[2]]}, 
+        "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+            Identity[
+             Part[#, 1]], 
+            Identity[
+             Part[#, 2]]}& ), 
+          "ScalingFunctions" -> {{Identity, Identity}, {
+            Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
+      "Meta" -> <|
+       "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+        ListPlot, "GroupHighlight" -> False|>|>, 
+     "DynamicHighlight"]], {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{2009.7500000000045`, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "DefaultPlotStyle" -> {
+      Directive[
+       RGBColor[0.368417, 0.506779, 0.709798], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.880722, 0.611041, 0.142051], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.560181, 0.691569, 0.194885], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.922526, 0.385626, 0.209179], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.528488, 0.470624, 0.701351], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.772079, 0.431554, 0.102387], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.363898, 0.618501, 0.782349], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[1, 0.75, 0], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.647624, 0.37816, 0.614037], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.571589, 0.586483, 0.], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.915, 0.3325, 0.2125], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.9728288904374106, 0.621644452187053, 0.07336199581899142], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.736782672705901, 0.358, 0.5030266573755369], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965], 
+       AbsoluteThickness[2]]}, "DomainPadding" -> Scaled[0.02], 
+    "PointSizeFunction" -> "SmallPointSize", "RangePadding" -> Scaled[0.05], 
+    "OptimizePlotMarkers" -> True, "IncludeHighlighting" -> "CurrentSet", 
+    "HighlightStyle" -> Automatic, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{2009.7500000000045`, 2022.}, {0, 1.6885*^10}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.913706256027237*^9, 3.913706271879602*^9}},
+ CellLabel->"Out[26]=",ExpressionUUID->"f000b789-beff-4404-a677-3a0b21a9ed62"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"c", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"a2", "[", 
+     RowBox[{"[", "1", "]"}], "]"}], ",", 
+    RowBox[{
+     RowBox[{"a3", "[", 
+      RowBox[{"[", "2", "]"}], "]"}], "+", 
+     RowBox[{"b3", "[", 
+      RowBox[{"[", "2", "]"}], "]"}]}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.9137062937902184`*^9, 3.913706343222177*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"0111104d-2038-4593-80f1-868cb4a58a53"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "2010", ",", "2011", ",", "2012", ",", "2013", ",", "2014", ",", "2015", 
+     ",", "2016", ",", "2017", ",", "2018", ",", "2019", ",", "2020", ",", 
+     "2021", ",", "2022"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "17312700000", ",", "17612090000", ",", "16689250000", ",", "16634795000",
+      ",", "16694030000", ",", "16946373000", ",", "17135777000", ",", 
+     "16125566000", ",", "15620740000", ",", "15283346000", ",", 
+     "14212020000", ",", "13385769000", ",", "12589471000"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.913706354420847*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"e0fcbb5c-9a95-4cc2-bcc8-962ddf10c0ff"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"c4", "=", 
+  RowBox[{"Transpose", "[", "c", "]"}]}]], "Input",
+ CellChangeTimes->{{3.913706376775783*^9, 3.9137063888907557`*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"f7f3c935-236e-4b9b-97c4-b869db0c1175"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2010", ",", "17312700000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", "17612090000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", "16689250000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", "16634795000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", "16694030000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", "16946373000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", "17135777000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", "16125566000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", "15620740000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", "15283346000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", "14212020000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2021", ",", "13385769000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2022", ",", "12589471000"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.913706390298354*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"1ebc7136-1647-4928-a830-f3998796212d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a4", ",", "b4", ",", "c4"}], "}"}], ",", 
+   RowBox[{"Joined", "->", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.913706233867272*^9, 3.91370627060151*^9}, {
+  3.913706367167677*^9, 3.913706395515417*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"54aa0bbc-039f-4797-98f6-4c79d8ee1da3"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   InterpretationBox[{
+     TagBox[{{}, {}, 
+       TagBox[
+        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 1.6885*^10}, {2011., 1.6885*^10}, {2012., 
+          1.562*^10}, {2013., 1.5202*^10}, {2014., 1.5026*^10}, {2015., 
+          1.5026*^10}, {2016., 1.4993*^10}, {2017., 1.3739*^10}, {2018., 
+          1.2969*^10}, {2019., 1.2298*^10}, {2020., 1.09615*^10}, {2021., 
+          9.977*^9}, {2022., 9.0695*^9}}]},
+        Annotation[#, "Charting`Private`Tag#1"]& ], 
+       TagBox[
+        {RGBColor[0.880722, 0.611041, 0.142051], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 4.277*^8}, {2011., 7.2709*^8}, {2012., 
+          1.06925*^9}, {2013., 1.432795*^9}, {2014., 1.66803*^9}, {2015., 
+          1.920373*^9}, {2016., 2.142777*^9}, {2017., 2.386566*^9}, {2018., 
+          2.65174*^9}, {2019., 2.985346*^9}, {2020., 3.25052*^9}, {2021., 
+          3.408769*^9}, {2022., 3.519971*^9}}]},
+        Annotation[#, "Charting`Private`Tag#2"]& ], 
+       TagBox[
+        {RGBColor[0.560181, 0.691569, 0.194885], PointSize[
+         0.012833333333333334`], AbsoluteThickness[2], 
+         LineBox[{{2010., 1.73127*^10}, {2011., 1.761209*^10}, {2012., 
+          1.668925*^10}, {2013., 1.6634795*^10}, {2014., 1.669403*^10}, {
+          2015., 1.6946373*^10}, {2016., 1.7135777*^10}, {2017., 
+          1.6125566*^10}, {2018., 1.562074*^10}, {2019., 1.5283346*^10}, {
+          2020., 1.421202*^10}, {2021., 1.3385769*^10}, {2022., 
+          1.2589471*^10}}]},
+        Annotation[#, "Charting`Private`Tag#3"]& ]},
+      {"WolframDynamicHighlight", <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>}], 
+     DynamicBox[(Charting`HighlightActionBox["DynamicHighlight", {}, 
+       Slot["HighlightElements"], 
+       Slot["LayoutOptions"], 
+       Slot["Meta"], 
+       Charting`HighlightActionFunction["DynamicHighlight", {{{}, {}, 
+          Annotation[{
+            Hue[0.67, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 1.6885*^10}, {2011., 1.6885*^10}, {2012., 
+             1.562*^10}, {2013., 1.5202*^10}, {2014., 1.5026*^10}, {2015., 
+             1.5026*^10}, {2016., 1.4993*^10}, {2017., 1.3739*^10}, {2018., 
+             1.2969*^10}, {2019., 1.2298*^10}, {2020., 1.09615*^10}, {2021., 
+             9.977*^9}, {2022., 9.0695*^9}}]}, "Charting`Private`Tag#1"], 
+          Annotation[{
+            Hue[0.9060679774997897, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.880722, 0.611041, 0.142051], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 4.277*^8}, {2011., 7.2709*^8}, {2012., 
+             1.06925*^9}, {2013., 1.432795*^9}, {2014., 1.66803*^9}, {2015., 
+             1.920373*^9}, {2016., 2.142777*^9}, {2017., 2.386566*^9}, {2018.,
+              2.65174*^9}, {2019., 2.985346*^9}, {2020., 3.25052*^9}, {2021., 
+             3.408769*^9}, {2022., 3.519971*^9}}]}, "Charting`Private`Tag#2"], 
+          Annotation[{
+            Hue[0.1421359549995791, 0.6, 0.6], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.560181, 0.691569, 0.194885], 
+             AbsoluteThickness[2]], 
+            
+            Line[{{2010., 1.73127*^10}, {2011., 1.761209*^10}, {2012., 
+             1.668925*^10}, {2013., 1.6634795*^10}, {2014., 1.669403*^10}, {
+             2015., 1.6946373*^10}, {2016., 1.7135777*^10}, {2017., 
+             1.6125566*^10}, {2018., 1.562074*^10}, {2019., 1.5283346*^10}, {
+             2020., 1.421202*^10}, {2021., 1.3385769*^10}, {2022., 
+             1.2589471*^10}}]}, "Charting`Private`Tag#3"]}}, <|
+        "HighlightElements" -> <|
+          "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+         "LayoutOptions" -> <|
+          "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 1.761209*^10}}, 
+           "Frame" -> {{False, False}, {False, False}}, 
+           "AxesOrigin" -> {2009.7500000000045`, 0}, 
+           "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+           "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+           "DefaultStyle" -> {
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.560181, 0.691569, 0.194885], 
+              AbsoluteThickness[2]], 
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.880722, 0.611041, 0.142051], 
+              AbsoluteThickness[2]], 
+             Directive[
+              PointSize[0.012833333333333334`], 
+              RGBColor[0.368417, 0.506779, 0.709798], 
+              AbsoluteThickness[2]]}, 
+           "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+               Identity[
+                Part[#, 1]], 
+               Identity[
+                Part[#, 2]]}& ), 
+             "ScalingFunctions" -> {{Identity, Identity}, {
+               Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
+           False|>, 
+         "Meta" -> <|
+          "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+           ListPlot, "GroupHighlight" -> False|>|>]]& )[<|
+       "HighlightElements" -> <|
+         "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+        "LayoutOptions" -> <|
+         "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 1.761209*^10}}, 
+          "Frame" -> {{False, False}, {False, False}}, 
+          "AxesOrigin" -> {2009.7500000000045`, 0}, 
+          "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+          "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+          "DefaultStyle" -> {
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.560181, 0.691569, 0.194885], 
+             AbsoluteThickness[2]], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.880722, 0.611041, 0.142051], 
+             AbsoluteThickness[2]], 
+            Directive[
+             PointSize[0.012833333333333334`], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]]}, 
+          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+              Identity[
+               Part[#, 1]], 
+              Identity[
+               Part[#, 2]]}& ), 
+            "ScalingFunctions" -> {{Identity, Identity}, {
+              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>,
+         "Meta" -> <|
+         "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+          ListPlot, "GroupHighlight" -> False|>|>],
+      ImageSizeCache->{{4.503599627370496*^15, -4.503599627370496*^15}, {
+       4.503599627370496*^15, -4.503599627370496*^15}}]},
+    Annotation[{{{}, {}, 
+       Annotation[{
+         Hue[0.67, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.368417, 0.506779, 0.709798], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 1.6885*^10}, {2011., 1.6885*^10}, {2012., 1.562*^10}, {
+          2013., 1.5202*^10}, {2014., 1.5026*^10}, {2015., 1.5026*^10}, {
+          2016., 1.4993*^10}, {2017., 1.3739*^10}, {2018., 1.2969*^10}, {
+          2019., 1.2298*^10}, {2020., 1.09615*^10}, {2021., 9.977*^9}, {2022.,
+           9.0695*^9}}]}, "Charting`Private`Tag#1"], 
+       Annotation[{
+         Hue[0.9060679774997897, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.880722, 0.611041, 0.142051], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 4.277*^8}, {2011., 7.2709*^8}, {2012., 1.06925*^9}, {
+          2013., 1.432795*^9}, {2014., 1.66803*^9}, {2015., 1.920373*^9}, {
+          2016., 2.142777*^9}, {2017., 2.386566*^9}, {2018., 2.65174*^9}, {
+          2019., 2.985346*^9}, {2020., 3.25052*^9}, {2021., 3.408769*^9}, {
+          2022., 3.519971*^9}}]}, "Charting`Private`Tag#2"], 
+       Annotation[{
+         Hue[0.1421359549995791, 0.6, 0.6], 
+         Directive[
+          PointSize[0.012833333333333334`], 
+          RGBColor[0.560181, 0.691569, 0.194885], 
+          AbsoluteThickness[2]], 
+         Line[{{2010., 1.73127*^10}, {2011., 1.761209*^10}, {2012., 
+          1.668925*^10}, {2013., 1.6634795*^10}, {2014., 1.669403*^10}, {
+          2015., 1.6946373*^10}, {2016., 1.7135777*^10}, {2017., 
+          1.6125566*^10}, {2018., 1.562074*^10}, {2019., 1.5283346*^10}, {
+          2020., 1.421202*^10}, {2021., 1.3385769*^10}, {2022., 
+          1.2589471*^10}}]}, "Charting`Private`Tag#3"]}}, <|
+     "HighlightElements" -> <|
+       "Label" -> {"XYLabel"}, "Ball" -> {"IndicatedBall"}|>, 
+      "LayoutOptions" -> <|
+       "PlotRange" -> {{2009.7500000000045`, 2022.}, {0, 1.761209*^10}}, 
+        "Frame" -> {{False, False}, {False, False}}, 
+        "AxesOrigin" -> {2009.7500000000045`, 0}, 
+        "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+        "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.560181, 0.691569, 0.194885], 
+           AbsoluteThickness[2]], 
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.880722, 0.611041, 0.142051], 
+           AbsoluteThickness[2]], 
+          Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.368417, 0.506779, 0.709798], 
+           AbsoluteThickness[2]]}, 
+        "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+            Identity[
+             Part[#, 1]], 
+            Identity[
+             Part[#, 2]]}& ), 
+          "ScalingFunctions" -> {{Identity, Identity}, {
+            Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
+      "Meta" -> <|
+       "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+        ListPlot, "GroupHighlight" -> False|>|>, 
+     "DynamicHighlight"]], {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{2009.7500000000045`, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "DefaultPlotStyle" -> {
+      Directive[
+       RGBColor[0.368417, 0.506779, 0.709798], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.880722, 0.611041, 0.142051], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.560181, 0.691569, 0.194885], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.922526, 0.385626, 0.209179], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.528488, 0.470624, 0.701351], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.772079, 0.431554, 0.102387], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.363898, 0.618501, 0.782349], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[1, 0.75, 0], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.647624, 0.37816, 0.614037], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.571589, 0.586483, 0.], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.915, 0.3325, 0.2125], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.9728288904374106, 0.621644452187053, 0.07336199581899142], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.736782672705901, 0.358, 0.5030266573755369], 
+       AbsoluteThickness[2]], 
+      Directive[
+       RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965], 
+       AbsoluteThickness[2]]}, "DomainPadding" -> Scaled[0.02], 
+    "PointSizeFunction" -> "SmallPointSize", "RangePadding" -> Scaled[0.05], 
+    "OptimizePlotMarkers" -> True, "IncludeHighlighting" -> "CurrentSet", 
+    "HighlightStyle" -> Automatic, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{2009.7500000000045`, 2022.}, {0, 1.761209*^10}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.913706368778605*^9, 3.913706396379332*^9}},
+ CellLabel->"Out[30]=",ExpressionUUID->"e99cb8ac-7d49-4573-a524-7ec1fa002bca"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MatrixForm", "[", "a", "]"}]], "Input",
+ CellChangeTimes->{{3.9137066094755697`*^9, 3.913706620036685*^9}, {
+  3.9137067628180437`*^9, 3.913706781964386*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"4af1af24-9671-4752-918d-a109fb79ec9e"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"2010", "3070000"},
+     {"2011", "3070000"},
+     {"2012", "2840000"},
+     {"2013", "2764000"},
+     {"2014", "2732000"},
+     {"2015", "2732000"},
+     {"2016", "2726000"},
+     {"2017", "2498000"},
+     {"2018", "2358000"},
+     {"2019", "2236000"},
+     {"2020", "1993000"},
+     {"2021", "1814000"},
+     {"2022", "1649000"}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{
+  3.913706621299576*^9, {3.9137067643014803`*^9, 3.91370678312247*^9}},
+ CellLabel->
+  "Out[35]//MatrixForm=",ExpressionUUID->"bc7b46df-e470-4455-8bdf-\
+4eeb11d74e93"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MatrixForm", "[", "b", "]"}]], "Input",
+ CellChangeTimes->{{3.9137066094755697`*^9, 3.913706620036685*^9}, {
+  3.913706746918111*^9, 3.913706750650592*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"7c863967-e9be-45c5-9c3f-ee39c96eab03"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"2010", "100000"},
+     {"2011", "170000"},
+     {"2012", "250000"},
+     {"2013", "335000"},
+     {"2014", "390000"},
+     {"2015", "449000"},
+     {"2016", "501000"},
+     {"2017", "558000"},
+     {"2018", "620000"},
+     {"2019", "698000"},
+     {"2020", "760000"},
+     {"2021", "797000"},
+     {"2022", "823000"}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{3.913706751517845*^9},
+ CellLabel->
+  "Out[32]//MatrixForm=",ExpressionUUID->"2ea14058-b1fb-4428-b81c-\
+f51b89f2f674"]
+}, Open  ]]
+},
+WindowSize->{808, 707},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"13.3 for Mac OS X ARM (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"44d85ab3-d845-43e6-b060-bd9faf1b41ed"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1276, 33, 73, "Input",ExpressionUUID->"5626beef-6360-431b-98a7-b4b5443d334b"],
+Cell[1859, 57, 1084, 30, 77, "Output",ExpressionUUID->"87603575-5f5c-46ae-9005-fe594451dfc7"]
+}, Open  ]],
+Cell[2958, 90, 466, 12, 30, "Input",ExpressionUUID->"d52f6f99-9b96-4329-bcfe-862a9814b990"],
+Cell[CellGroupData[{
+Cell[3449, 106, 262, 5, 30, "Input",ExpressionUUID->"895d0146-a8bc-4926-b3fe-8960e9b325f1"],
+Cell[3714, 113, 9031, 205, 222, "Output",ExpressionUUID->"9aba90df-73d6-415e-bc31-acd1ddbf048c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12782, 323, 1316, 34, 73, "Input",ExpressionUUID->"81aed00e-5d1b-4ef7-8353-9f28f2cf2833"],
+Cell[14101, 359, 1047, 30, 77, "Output",ExpressionUUID->"0b5ebd19-37ab-44ba-a372-2414cc00c2ad"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15185, 394, 262, 5, 30, "Input",ExpressionUUID->"901cd1ef-a731-461c-89fe-79f5d101673f"],
+Cell[15450, 401, 8792, 202, 230, "Output",ExpressionUUID->"6a6cc489-8ca6-400c-b5fd-ab781e7461fb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24279, 608, 310, 7, 30, "Input",ExpressionUUID->"64dec42b-d5bf-40fc-9321-7450a40fd1aa"],
+Cell[24592, 617, 10885, 246, 228, "Output",ExpressionUUID->"231a571c-877a-47db-924e-e56edd00c05e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35514, 868, 197, 3, 30, "Input",ExpressionUUID->"d2db0dba-389d-4b71-ab91-1396ded9bc58"],
+Cell[35714, 873, 154, 2, 34, "Output",ExpressionUUID->"0ecc4cb1-14a8-4ee6-b2f3-521020024bd9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35905, 880, 202, 3, 30, "Input",ExpressionUUID->"b3d4bafa-ef68-4672-af6e-7a6a0c65c284"],
+Cell[36110, 885, 152, 2, 34, "Output",ExpressionUUID->"7c191858-8ff1-41bd-88df-34f1a8bcdaeb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36299, 892, 233, 4, 30, "Input",ExpressionUUID->"c2e5814d-4355-4286-a35c-154e40a53dcb"],
+Cell[36535, 898, 666, 15, 77, "Output",ExpressionUUID->"50e66b6b-76b6-43e9-9476-2c62cb9ef1e2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37238, 918, 385, 10, 30, "Input",ExpressionUUID->"d960455b-836b-4c65-a224-7bb4cd863875"],
+Cell[37626, 930, 722, 16, 98, "Output",ExpressionUUID->"5f0e8619-ffa3-4325-8c28-e041559d03eb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38385, 951, 232, 4, 30, "Input",ExpressionUUID->"da7a8a82-1876-495b-bf5b-5b49c3198ed7"],
+Cell[38620, 957, 1110, 30, 98, "Output",ExpressionUUID->"8f0ca4e2-1f44-43b4-8e8c-909cece3df21"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39767, 992, 281, 5, 30, "Input",ExpressionUUID->"eec7c207-6d44-41cd-82d8-d40e8a79ae70"],
+Cell[40051, 999, 674, 15, 77, "Output",ExpressionUUID->"01f17969-489f-4e8b-b17b-c898953434e4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40762, 1019, 436, 11, 30, "Input",ExpressionUUID->"e0827fec-55f5-44ce-93c9-b9f6b17704eb"],
+Cell[41201, 1032, 728, 15, 77, "Output",ExpressionUUID->"7c1fc30f-2140-4635-98ca-6e3c377eb758"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41966, 1052, 283, 5, 30, "Input",ExpressionUUID->"0f2f513e-1bbf-4a87-ade3-c308a9bdadba"],
+Cell[42252, 1059, 1119, 30, 98, "Output",ExpressionUUID->"2e9c1066-6db8-47b9-bd59-3aea749ab75d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43408, 1094, 312, 7, 30, "Input",ExpressionUUID->"b511eb79-89c8-467f-aad9-a6cda8ffaa34"],
+Cell[43723, 1103, 11155, 248, 224, "Output",ExpressionUUID->"f000b789-beff-4404-a677-3a0b21a9ed62"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54915, 1356, 443, 12, 30, "Input",ExpressionUUID->"0111104d-2038-4593-80f1-868cb4a58a53"],
+Cell[55361, 1370, 724, 16, 98, "Output",ExpressionUUID->"e0fcbb5c-9a95-4cc2-bcc8-962ddf10c0ff"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[56122, 1391, 233, 4, 30, "Input",ExpressionUUID->"f7f3c935-236e-4b9b-97c4-b869db0c1175"],
+Cell[56358, 1397, 1110, 30, 98, "Output",ExpressionUUID->"1ebc7136-1647-4928-a830-f3998796212d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[57505, 1432, 372, 8, 30, "Input",ExpressionUUID->"54aa0bbc-039f-4797-98f6-4c79d8ee1da3"],
+Cell[57880, 1442, 13489, 294, 224, "Output",ExpressionUUID->"e99cb8ac-7d49-4573-a524-7ec1fa002bca"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[71406, 1741, 261, 4, 30, "Input",ExpressionUUID->"4af1af24-9671-4752-918d-a109fb79ec9e"],
+Cell[71670, 1747, 974, 31, 297, "Output",ExpressionUUID->"bc7b46df-e470-4455-8bdf-4eeb11d74e93"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[72681, 1783, 259, 4, 30, "Input",ExpressionUUID->"7c863967-e9be-45c5-9c3f-ee39c96eab03"],
+Cell[72943, 1789, 911, 30, 249, "Output",ExpressionUUID->"2ea14058-b1fb-4428-b81c-f51b89f2f674"]
+}, Open  ]]
+}
+]
+*)
+
