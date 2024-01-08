@@ -12,6 +12,8 @@ nikkei-pc.csv : 日経紙の購読者数推移　2010~2022
 
 nikkei-ec.csv : 日経電子版の購読者数推移　2010~2022
 
+<img width="360" alt="pec" src="https://github.com/chibaf/nikkei_circulation/assets/1296728/78b21a35-9e91-401c-adf7-d25986fec656">
+
 nikkei-ps.csv : 日経紙の売上高推移　2010~2022
 
 nikkei-es.csv : 日経電子版の売上高推移　2010~2022
