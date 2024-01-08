@@ -1,6 +1,7 @@
 # nikkei_circulation
 nikkei circulation from 2010
 
+## プログラム
 nikkei-circulation.nb : 計算に使ったMathmaticaノートブック
 
 ## csvファイル
