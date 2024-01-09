@@ -4,7 +4,7 @@ nikkei circulation from 2010
 ２０１０年から２０２０年までの日経購読者数推移と売上高（推定）
 
 ## プログラム
-nikkei-circulation.nb : 計算に使ったMathmaticaノートブック
+nikkei-circulation.nb : 計算に使ったMathematicaノートブック
 
 ## csvファイル
 
