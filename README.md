@@ -20,7 +20,7 @@ nikkei-es.csv : 日経電子版の売上高推移　2010~2022
 
 nikkei-pes.csv : 日経・紙と日経電子版の合計売上高推移　2010~2022
 
-<img width="525" alt="pes" src="https://github.com/chibaf/nikkei_circulation/assets/1296728/8b0fcc3e-69e4-4a1e-b315-ec2002c7a4c9">
+<img width="562" alt="Screenshot 2024-01-09 at 21 55 13" src="https://github.com/chibaf/nikkei_circulation/assets/1296728/d26e9e86-bda1-447f-b37b-b659f012a145">
 
 
 ## 注
