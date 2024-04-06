@@ -8,17 +8,17 @@ nikkei-circulation.nb : 計算に使ったMathematicaノートブック
 
 ## csvファイル
 
-nikkei-pc.csv : 日経紙の購読者数推移　2010~2022
+nikkei-pc.csv : 日経紙の購読者数推移　2010~2023
 
-nikkei-ec.csv : 日経電子版の購読者数推移　2010~2022
+nikkei-ec.csv : 日経電子版の購読者数推移　2010~2023
 
 <img width="493" alt="pec" src="https://github.com/chibaf/nikkei_circulation/assets/1296728/d948aab4-ee79-4661-be7a-4a99c4517ade">
 
-nikkei-ps.csv : 日経紙の売上高推移　2010~2022
+nikkei-ps.csv : 日経紙の売上高推移　2010~2023
 
-nikkei-es.csv : 日経電子版の売上高推移　2010~2022
+nikkei-es.csv : 日経電子版の売上高推移　2010~2023
 
-nikkei-pes.csv : 日経・紙と日経電子版の合計売上高推移　2010~2022
+nikkei-pes.csv : 日経・紙と日経電子版の合計売上高推移　2010~2023
 
 <img width="562" alt="Screenshot 2024-01-09 at 21 55 13" src="https://github.com/chibaf/nikkei_circulation/assets/1296728/d26e9e86-bda1-447f-b37b-b659f012a145">
 
